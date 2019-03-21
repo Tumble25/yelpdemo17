@@ -16,6 +16,7 @@ gem 'pg', group: :production
 gem 'carrierwave', '~> 1.0'
 gem "fog-aws", '~> 3.3.0'
 gem "figaro"
+gem "mini_magick"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
